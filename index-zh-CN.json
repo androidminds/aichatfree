@@ -1,32 +1,32 @@
-﻿{
+{
     "extensions": [
         {
             "name": "Deep AI",
             "type": "chat",
-						"version": "1.0",
+            "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/deepai.py",
-            "description": "Deep AI提供的免费ChatGPT站点，国内不能直接访问",
+            "description": "Deep AI提供的免费ChatGPT站点，国内不能直接访问"
         },
         {
             "name": "GPTWorld AI",
             "type": "chat",
-						"version": "1.0",
+            "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/gptworldai.py",
-            "description": "GPTWorld AI提供的免费ChatGPT站点，国内不能直接访问",
+            "description": "GPTWorld AI提供的免费ChatGPT站点，国内不能直接访问"
         },
-				{
+        {
             "name": "TheBai AI",
             "type": "chat",
-						"version": "1.0",
+            "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/thebai.py",
-            "description": "TheBai AI提供的免费ChatGPT站点，国内不能直接访问",
+            "description": "TheBai AI提供的免费ChatGPT站点，国内不能直接访问"
         },
-				{
+        {
             "name": "Wu ChatGPT",
             "type": "chat",
 						"version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/wu-chatgpt.py",
-            "description": "Wu GuoKai提供的免费ChatGPT站点，国内可以直接访问",
-        },    
-		]
+            "description": "Wu GuoKai提供的免费ChatGPT站点，国内可以直接访问"
+        }
+    ]
 }
