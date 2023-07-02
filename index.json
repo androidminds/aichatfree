@@ -1,32 +1,32 @@
-﻿{
+{
     "extensions": [
         {
             "name": "Deep AI",
             "type": "chat",
-						"version": "1.0",
+            "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/deepai.py",
-            "description": "A free chatgpt site created by Deep AI",
+            "description": "A free chatgpt site created by Deep AI"
         },
         {
             "name": "GPTWorld AI",
             "type": "chat",
-						"version": "1.0",
+            "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/gptworldai.py",
-            "description": "A free chatgpt site created by TheBai AI",
+            "description": "A free chatgpt site created by TheBai AI"
         },
-				{
+        {
             "name": "TheBai AI",
             "type": "chat",
-						"version": "1.0",
+            "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/thebai.py",
-            "description": "A free chatgpt site created by TheBai AI",
+            "description": "A free chatgpt site created by TheBai AI"
         },
-				{
+        {
             "name": "Wu ChatGPT",
             "type": "chat",
-						"version": "1.0",
+            "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/wu-chatgpt.py",
-            "description": "A free chatgpt site created by Wu GuoKai",
-        },    
+            "description": "A free chatgpt site created by Wu GuoKai"
+        }
 		]
 }
