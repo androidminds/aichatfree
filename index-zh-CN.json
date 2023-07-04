@@ -30,7 +30,7 @@
             "model": "gpt3.5",
             "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/wu-chatgpt.py",
-            "description": "Wu GuoKai提供的免费ChatGPT站点，国内可以直接访问"
+            "description": "一个让AI扮演各类软件工程师的集合"
         }
     ]
 }

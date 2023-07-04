@@ -37,7 +37,7 @@
             "type": "role",
             "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/role/programmer.py",
-            "description": ""
+            "description": "A collection of AI playing various software engineers"
         }
     ]
 }
