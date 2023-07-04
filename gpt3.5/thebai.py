@@ -3,12 +3,6 @@ import json
 from fake_useragent import UserAgent
 
 
-def site_info():
-    return {
-        'model' : "GPT-3.5",
-        'title' : "thebai",
-    }
-
 def handle_data(trunk):
     datas = trunk.decode('utf-8').split('\n')
     content = ""

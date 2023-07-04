@@ -26,12 +26,6 @@ def encrypt(e):
     return binascii.hexlify(ciphertext).decode('utf-8') + t.decode('utf-8') + n.decode('utf-8')
 
 
-def site_info():
-    return {
-        'model' : "GPT-3.5",
-        'title' : "GPT World AI",
-    }
-
 def handle_data(trunk):
         datas = trunk.decode('utf-8').split('data: ')
         content = ""

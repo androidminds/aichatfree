@@ -3,6 +3,7 @@
         {
             "name": "Deep AI",
             "type": "chat",
+            "model": "gpt3.5",
             "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/deepai.py",
             "description": "A free chatgpt site created by Deep AI"
@@ -10,6 +11,7 @@
         {
             "name": "GPTWorld AI",
             "type": "chat",
+            "model": "gpt3.5",
             "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/gptworldai.py",
             "description": "A free chatgpt site created by TheBai AI"
@@ -17,6 +19,7 @@
         {
             "name": "TheBai AI",
             "type": "chat",
+            "model": "gpt3.5",
             "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/thebai.py",
             "description": "A free chatgpt site created by TheBai AI"
@@ -24,6 +27,7 @@
         {
             "name": "Wu ChatGPT",
             "type": "chat",
+            "model": "gpt3.5",
             "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/wu-chatgpt.py",
             "description": "A free chatgpt site created by Wu GuoKai"

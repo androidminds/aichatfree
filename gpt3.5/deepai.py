@@ -12,12 +12,6 @@ def get_api_key(user_agent):
     part2 = md5(user_agent + md5(user_agent + md5(user_agent+part1+"x")))
     return f"tryit-{part1}-{part2}"
 
-def site_info():
-    return {
-        'model' : "GPT-3.5",
-        'title' : "Deep AI",
-    }
-
 def completion(messages, proxy=None):
     url = "https://api.deepai.org/chat_response"
 

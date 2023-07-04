@@ -4,13 +4,6 @@ import json
 from fake_useragent import UserAgent
 
 
-def site_info():
-    return {
-        'model' : "GPT-3.5",
-        'title' : "Wu-ChatGPT"
-    }
-
-
 def completion(messages, proxy=None, data=None):
     user = "1685"+''.join(random.sample('0123456789', 9))
 
