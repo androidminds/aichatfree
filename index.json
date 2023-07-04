@@ -31,6 +31,13 @@
             "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/wu-chatgpt.py",
             "description": "A free chatgpt site created by Wu GuoKai"
+        },
+        {
+            "name": "Programmer Roles",
+            "type": "role",
+            "version": "1.0",
+            "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/role/programmer.py",
+            "description": ""
         }
-		]
+    ]
 }
