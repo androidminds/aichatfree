@@ -33,7 +33,7 @@
             "description": "Wu GuoKai提供的免费ChatGPT站点，国内可以直接访问"
         },
         {
-            "name": "软件工程师角色集合",
+            "name": "Programmer Roles",
             "type": "role",
             "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/role/programmer.py",
