@@ -1,3 +1,9 @@
+# Copyright Notice:
+# This file has been modified and supplemented based on the xtekky/gpt4free.
+# The copyright belongs to the original project and its developers. 
+# Thanks to the original project and its developers.
+# 
+
 import requests
 import json
 from fake_useragent import UserAgent
