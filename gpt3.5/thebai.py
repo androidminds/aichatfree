@@ -17,7 +17,7 @@ def handle_data(trunk):
             data_json = json.loads(data)
             if 'delta' in data_json:
                 content += data_json['delta']
-            
+
     return content.encode('utf-8')
     
 
@@ -40,10 +40,8 @@ def completion(messages, proxy=None):
     proxies = {'http': proxy, 'https': proxy} if proxy else None
 
     try:
-        response = requests.post(url, headers=headers, json=payload, timeout=timeout, proxies=proxies, stream=True)
-        response.raise_for_status()           
-        return response
-    except (requests.exceptions.RequestException) as e:
+        return requests.post(url, headers=headers, json=payload, timeout=timeout, proxies=proxies, stream=True)
+    except Exception as e:
         print("thebai Post error: ", e)
         return None
         

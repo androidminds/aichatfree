@@ -3,7 +3,7 @@
         {
             "name": "Deep AI",
             "type": "chat",
-            "model": "gpt3.5",
+            "model": "GPT-3.5",
             "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/deepai.py",
             "description": "Deep AI提供的免费ChatGPT站点，国内不能直接访问"

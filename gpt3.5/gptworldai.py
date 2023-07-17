@@ -32,16 +32,17 @@ def encrypt(e):
 
 
 def handle_data(trunk):
-        datas = trunk.decode('utf-8').split('data: ')
-        content = ""
-        for data in datas:
-            if not data or "[DONE]" in data:
-                continue
-            data_json = json.loads(data)
-            if 'content' in data_json['choices'][0]['delta']:
-                content += data_json['choices'][0]['delta'].get('content')
-            
-        return content.encode('utf-8')
+    datas = trunk.decode('utf-8').split('data: ')
+    content = ""
+    for data in datas:
+        if not data or "[DONE]" in data:
+            continue
+        data_json = json.loads(data)
+        if 'content' in data_json['choices'][0]['delta']:
+            content += data_json['choices'][0]['delta'].get('content')
+
+  
+    return content.encode('utf-8')
     
 def completion(messages, proxy=None):
 
@@ -70,10 +71,8 @@ def completion(messages, proxy=None):
         proxies = {'http': proxy, 'https': proxy} if proxy else None       
 
         try:
-            response = requests.post(url, headers=headers, data=data, timeout=timeout, proxies=proxies, stream=True)
-            response.raise_for_status()           
-            return response
-        except (requests.exceptions.RequestException) as e:
+            return requests.post(url, headers=headers, data=data, timeout=timeout, proxies=proxies, stream=True)    
+        except Exception as e:
             print("Gptworldai Post error: ", e)
             return None
         

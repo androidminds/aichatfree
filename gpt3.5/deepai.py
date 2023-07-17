@@ -35,9 +35,7 @@ def completion(messages, proxy=None):
     proxies = {'http': proxy, 'https': proxy} if proxy else None       
 
     try:
-        response = requests.post(url, headers=headers, files=files, timeout=timeout, proxies=proxies, stream=True)
-        response.raise_for_status()           
-        return response
-    except (requests.exceptions.RequestException) as e:
+        return requests.post(url, headers=headers, files=files, timeout=timeout, proxies=proxies, stream=True)
+    except Exception as e:
         print("DeepAI Post error: ", e)
         return None
