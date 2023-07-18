@@ -29,7 +29,7 @@
             "type": "chat",
             "model": "GPT-3.5",
             "version": "1.0",
-            "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/GPT-3.5/yqcloud.py",
+            "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/yqcloud.py",
             "description": "YQCloud提供的免费ChatGPT站点，国内可以直接访问"
         },
         {
@@ -37,7 +37,7 @@
             "type": "chat",
             "model": "GPT-3.5",
             "version": "1.0",
-            "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/GPT-3.5/ails.py",
+            "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/ails.py",
             "description": "AILS提供的免费ChatGPT站点，国内可以直接访问"
         },
         {
