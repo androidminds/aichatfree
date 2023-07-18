@@ -35,7 +35,7 @@ def handle_data(trunk):
     datas = trunk.decode('utf-8').split('data: ')
     content = ""
     for data in datas:
-        if not data or "[DONE]" in data:
+        if not data or "[DONE]" in data or not "content" in data:
             continue
         data_json = json.loads(data)
         if 'content' in data_json['choices'][0]['delta']:

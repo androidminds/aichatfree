@@ -33,6 +33,14 @@
             "description": "YQCloud提供的免费ChatGPT站点，国内可以直接访问"
         },
         {
+            "name": "AILS",
+            "type": "chat",
+            "model": "GPT-3.5",
+            "version": "1.0",
+            "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/GPT-3.5/ails.py",
+            "description": "AILS提供的免费ChatGPT站点，国内可以直接访问"
+        },
+        {
             "name": "Programmer Roles",
             "type": "role",
             "version": "1.0",

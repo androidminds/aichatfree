@@ -33,6 +33,14 @@
             "description": "A free chatgpt site created by YQCloud"
         },
         {
+            "name": "AILS",
+            "type": "chat",
+            "model": "GPT-3.5",
+            "version": "1.0",
+            "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/GPT-3.5/ails.py",
+            "description": "A free chatgpt site created by AILS"
+        },
+        {
             "name": "Programmer Roles",
             "type": "role",
             "version": "1.0",
