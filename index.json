@@ -25,12 +25,12 @@
             "description": "A free chatgpt site created by TheBai AI"
         },
         {
-            "name": "Wu ChatGPT",
+            "name": "YQ Cloud",
             "type": "chat",
             "model": "GPT-3.5",
             "version": "1.0",
-            "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/GPT-3.5/wu-chatgpt.py",
-            "description": "A free chatgpt site created by Wu GuoKai"
+            "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/GPT-3.5/yqcloud.py",
+            "description": "A free chatgpt site created by YQCloud"
         },
         {
             "name": "Programmer Roles",

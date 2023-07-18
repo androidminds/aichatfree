@@ -42,6 +42,6 @@ def completion(messages, proxy=None):
     try:
         return requests.post(url, headers=headers, json=payload, timeout=timeout, proxies=proxies, stream=True)
     except Exception as e:
-        print("thebai Post error: ", e)
+        print("thebai post error: ", e)
         return None
         

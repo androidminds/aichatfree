@@ -73,6 +73,6 @@ def completion(messages, proxy=None):
         try:
             return requests.post(url, headers=headers, data=data, timeout=timeout, proxies=proxies, stream=True)    
         except Exception as e:
-            print("Gptworldai Post error: ", e)
+            print("Gptworldai post error: ", e)
             return None
         
