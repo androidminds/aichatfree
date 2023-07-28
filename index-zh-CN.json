@@ -4,6 +4,7 @@
             "name": "Deep AI",
             "type": "chat",
             "model": "GPT-3.5",
+            "status": "active",
             "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/deepai.py",
             "description": "Deep AI提供的免费ChatGPT站点，国内不能直接访问"
@@ -12,6 +13,7 @@
             "name": "GPTWorld AI",
             "type": "chat",
             "model": "gpt3.5",
+            "status": "active",
             "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/gptworldai.py",
             "description": "GPTWorld AI提供的免费ChatGPT站点，国内不能直接访问"
@@ -20,6 +22,7 @@
             "name": "TheBai AI",
             "type": "chat",
             "model": "gpt3.5",
+            "status": "active",
             "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/thebai.py",
             "description": "TheBai AI提供的免费ChatGPT站点，国内不能直接访问"
@@ -28,6 +31,7 @@
             "name": "YQ Cloud",
             "type": "chat",
             "model": "GPT-3.5",
+            "status": "active",
             "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/yqcloud.py",
             "description": "YQCloud提供的免费ChatGPT站点，国内可以直接访问"
@@ -36,13 +40,24 @@
             "name": "AILS",
             "type": "chat",
             "model": "GPT-3.5",
+            "status": "active",
             "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/ails.py",
             "description": "AILS提供的免费ChatGPT站点，国内可以直接访问"
         },
         {
+            "name": "ChatGPTAI",
+            "type": "chat",
+            "model": "GPT-4",
+            "status": "active",
+            "version": "1.0",
+            "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt4/chatgptai.py",
+            "description": "ChatGPT.ai 提供的免费GPT-4站点，国内不能直接访问。每天还有使用次数的限制"
+        },
+        {
             "name": "Programmer Roles",
             "type": "role",
+            "status": "active",
             "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/role/programmer.py",
             "description": "一个让AI扮演各类软件工程师角色集合"

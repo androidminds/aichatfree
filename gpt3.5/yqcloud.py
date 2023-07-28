@@ -31,7 +31,7 @@ def completion(messages, proxy=None):
     proxies = {'http': proxy, 'https': proxy} if proxy else None       
 
     try:
-        return requests.post(url, headers=headers, json=data, timeout=timeout, proxies=proxies, stream=True)
+        return requests.post(url, headers=headers, json=data, timeout=timeout, proxies=proxies, stream=True), True
     except Exception as e:
         print("yqcloud post error: ", e)
-        return None
+        return None, False

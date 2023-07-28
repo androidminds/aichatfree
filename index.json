@@ -4,6 +4,7 @@
             "name": "Deep AI",
             "type": "chat",
             "model": "GPT-3.5",
+            "status": "active",
             "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/deepai.py",
             "description": "A free chatgpt site created by Deep AI"
@@ -12,6 +13,7 @@
             "name": "GPTWorld AI",
             "type": "chat",
             "model": "GPT-3.5",
+            "status": "active",
             "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/gptworldai.py",
             "description": "A free chatgpt site created by TheBai AI"
@@ -20,6 +22,7 @@
             "name": "TheBai AI",
             "type": "chat",
             "model": "GPT-3.5",
+            "status": "active",
             "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/thebai.py",
             "description": "A free chatgpt site created by TheBai AI"
@@ -28,6 +31,7 @@
             "name": "YQ Cloud",
             "type": "chat",
             "model": "GPT-3.5",
+            "status": "active",
             "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/yqcloud.py",
             "description": "A free chatgpt site created by YQCloud"
@@ -36,13 +40,24 @@
             "name": "AILS",
             "type": "chat",
             "model": "GPT-3.5",
+            "status": "active",
             "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/ails.py",
             "description": "A free chatgpt site created by AILS"
         },
         {
+            "name": "ChatGPTAI",
+            "type": "chat",
+            "model": "GPT-4",
+            "status": "active",
+            "version": "1.0",
+            "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt4/chatgptai.py",
+            "description": "A free GPT-4 site created by ChatGPT.ai. But there is a daily usage limit."
+        },
+        {
             "name": "Programmer Roles",
             "type": "role",
+            "status": "active",
             "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/role/programmer.py",
             "description": "A collection of AI playing various software engineers"

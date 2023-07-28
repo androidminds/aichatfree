@@ -34,8 +34,8 @@ def completion(messages, proxy=None, data=None):
 
     # send real prompt
     try:
-        return requests.post(url, headers=headers, json=payload, timeout=timeout, proxies=proxies, stream=True)
+        return requests.post(url, headers=headers, json=payload, timeout=timeout, proxies=proxies, stream=True), True
     except Exception as e:
         print("WuChartGPT Post error: ", e)
-        return None
+        return None, False
         

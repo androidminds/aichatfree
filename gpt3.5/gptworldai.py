@@ -71,8 +71,8 @@ def completion(messages, proxy=None):
         proxies = {'http': proxy, 'https': proxy} if proxy else None       
 
         try:
-            return requests.post(url, headers=headers, data=data, timeout=timeout, proxies=proxies, stream=True)    
+            return requests.post(url, headers=headers, data=data, timeout=timeout, proxies=proxies, stream=True), True 
         except Exception as e:
             print("Gptworldai post error: ", e)
-            return None
+            return None, False
         
