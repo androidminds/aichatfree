@@ -51,7 +51,7 @@
             "model": "GPT-3.5",
             "status": "active",
             "version": "1.0",
-            "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt4/chatgptai.py",
+            "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/chatgptai.py",
             "description": "ChatGPT.ai 提供的免费GPT-4站点，国内不能直接访问。每天还有使用次数的限制"
         },
         {

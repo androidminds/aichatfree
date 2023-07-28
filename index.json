@@ -51,7 +51,7 @@
             "model": "GPT-3.5",
             "status": "active",
             "version": "1.0",
-            "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt4/chatgptai.py",
+            "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/chatgptai.py",
             "description": "A free GPT-4 site created by ChatGPT.ai. But there is a daily usage limit."
         },
         {
