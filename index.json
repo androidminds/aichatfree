@@ -48,7 +48,7 @@
         {
             "name": "ChatGPTAI",
             "type": "chat",
-            "model": "GPT-4",
+            "model": "GPT-3.5",
             "status": "active",
             "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt4/chatgptai.py",
