@@ -55,12 +55,12 @@
             "description": "A free GPT-4 site created by ChatGPT.ai. But there is a daily usage limit."
         },
         {
-            "name": "Programmer Roles",
+            "name": "Awesome Chatgpt Prompts",
             "type": "role",
-            "status": "active",
+            "uid": "df3ec6e9",
             "version": "1.0",
-            "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/role/programmer.py",
-            "description": "A collection of AI playing various software engineers"
+            "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/prompts/awesome.json",
+            "description": "A collection of prompts from github project 'awesome-chatgpt-prompts'"
         }
     ]
 }
