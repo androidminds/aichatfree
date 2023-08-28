@@ -55,12 +55,14 @@
             "description": "ChatGPT.ai 提供的免费GPT-4站点，国内不能直接访问。每天还有使用次数的限制"
         },
         {
-            "name": "Awesome Chatgpt Prompts",
+            "name": {"en":"Awesome Chatgpt Prompts", "zh-CN": "Awesome 提示集"},
             "type": "role",
             "uid": "df3ec6e9",
+            "status": "active",
             "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/prompts/awesome.json",
-            "description": "一个chatgpt提示集合，来源于Github项目'awesome-chatgpt-prompts'"
+            "description": {"en":"A collection of prompts from github project 'awesome-chatgpt-prompts'",
+                            "zh-CN": "一个chatgpt提示集合，来源于Github项目'awesome-chatgpt-prompts'"}
         }
     ]
 }
