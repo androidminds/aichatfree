@@ -55,12 +55,14 @@
             "description": "A free GPT-4 site created by ChatGPT.ai. But there is a daily usage limit."
         },
         {
-            "name": "Awesome Chatgpt Prompts",
+            "name": {"en":"Awesome Chatgpt Prompts", "zh-CN": "Awesome 提示集"},
             "type": "role",
             "uid": "df3ec6e9",
+            "status": "active",
             "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/prompts/awesome.json",
-            "description": "A collection of prompts from github project 'awesome-chatgpt-prompts'"
+            "description": {"en":"A collection of prompts from github project 'awesome-chatgpt-prompts'",
+                            "zh-CN": "一个chatgpt提示集合，来源于Github项目'awesome-chatgpt-prompts'"}
         }
     ]
 }
