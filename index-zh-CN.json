@@ -60,7 +60,7 @@
             "uid": "df3ec6e9",
             "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/prompts/awesome.json",
-            "description": "A collection of prompts from github project 'awesome-chatgpt-prompts'"
+            "description": "一个chatgpt提示集合，来源于Github项目'awesome-chatgpt-prompts'"
         }
     ]
 }
