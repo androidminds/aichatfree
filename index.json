@@ -4,55 +4,68 @@
             "name": "Deep AI",
             "type": "chat",
             "model": "GPT-3.5",
+            "uid": "b69510f8",
             "status": "active",
             "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/deepai.py",
-            "description": "A free chatgpt site created by Deep AI"
+            "description": {"en":"A free chatgpt site created by Deep AI",
+                            "zh-CN":  "Deep AI提供的免费ChatGPT站点，国内不能直接访问"}
         },
         {
             "name": "GPTWorld AI",
             "type": "chat",
             "model": "GPT-3.5",
+            "uid": "93c24d28",
             "status": "active",
             "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/gptworldai.py",
-            "description": "A free chatgpt site created by TheBai AI"
+            "description": {"en":"A free chatgpt site created by GPTWorld AI",
+                            "zh-CN":  "GPTWorld AI提供的免费ChatGPT站点，国内不能直接访问"}
+           
         },
         {
             "name": "TheBai AI",
             "type": "chat",
             "model": "GPT-3.5",
+            "uid": "229f6f04",
             "status": "active",
             "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/thebai.py",
-            "description": "A free chatgpt site created by TheBai AI"
+            "description": {"en":"A free chatgpt site created by TheBai AI",
+                            "zh-CN":  "TheBai AI提供的免费ChatGPT站点，国内不能直接访问"}
         },
         {
             "name": "YQ Cloud",
             "type": "chat",
             "model": "GPT-3.5",
+            "uid": "80ff80e8",
             "status": "active",
             "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/yqcloud.py",
-            "description": "A free chatgpt site created by YQCloud"
+            "description": {"en":"A free chatgpt site created by YQ Cloud",
+                            "zh-CN":  "YQ Cloud提供的免费ChatGPT站点，国内不能直接访问"}
         },
         {
             "name": "AILS",
             "type": "chat",
             "model": "GPT-3.5",
-            "status": "active",
+            "uid": "65b90adc",
+            "status": "inactive",
             "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/ails.py",
-            "description": "A free chatgpt site created by AILS"
+            "description": {"en":"A free chatgpt site created by AILS",
+                            "zh-CN":  "AILS提供的免费ChatGPT站点，国内不能直接访问"}
         },
         {
             "name": "ChatGPTAI",
             "type": "chat",
             "model": "GPT-3.5",
+            "uid": "9290976e",
             "status": "active",
             "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/chatgptai.py",
-            "description": "A free GPT-4 site created by ChatGPT.ai. But there is a daily usage limit."
+            "description": {"en":"A free GPT-4 site created by ChatGPT.ai. But there is a daily usage limit.",
+                            "zh-CN":  "ChatGPT.ai 提供的免费站点，国内不能直接访问。每天还有使用次数的限制"}
         },
         {
             "name": {"en":"Awesome Chatgpt Prompts", "zh-CN": "Awesome 提示集"},
