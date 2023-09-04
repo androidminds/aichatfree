@@ -28,7 +28,7 @@
             "type": "chat",
             "model": "GPT-3.5",
             "uid": "229f6f04",
-            "status": "active",
+            "status": "inactive",
             "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/thebai.py",
             "description": {"en":"A free chatgpt site created by TheBai AI",
