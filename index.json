@@ -69,7 +69,7 @@
         },
         {
             "name": {"en":"Awesome Chatgpt Prompts", "zh-CN": "Awesome 提示集"},
-            "type": "role",
+            "type": "prompt",
             "uid": "df3ec6e9",
             "status": "active",
             "version": "1.0",
