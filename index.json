@@ -40,7 +40,7 @@
             "model": "GPT-3.5",
             "uid": "80ff80e8",
             "status": "active",
-            "version": "1.0",
+            "version": "1.1",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/yqcloud.py",
             "description": {"en":"A free chatgpt site created by YQ Cloud",
                             "zh-CN":  "YQ Cloud提供的免费ChatGPT站点，国内不能直接访问"}
