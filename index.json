@@ -68,6 +68,40 @@
                             "zh-CN":  "ChatGPT.ai 提供的免费站点，国内不能直接访问。每天还有使用次数的限制"}
         },
         {
+            "name": "Acytoo",
+            "type": "chat",
+            "model": "GPT-3.5",
+            "uid": "ba14e585",
+            "status": "active",
+            "version": "1.0",
+            "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/acytoo.py",
+            "description": {"en":"A free chatgpt site created by chat.acytoo.com.",
+                            "zh-CN":  "chat.acytoo.com 提供的免费chatgpt站点，国内不能直接访问。"}
+        },
+        {
+            "name": "AIChat",
+            "type": "chat",
+            "model": "GPT-3.5",
+            "uid": "1988c49f",
+            "status": "active",
+            "version": "1.0",
+            "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/aichat.py",
+            "description": {"en":"A free chatgpt site created by chat-gpt.org. ",
+                            "zh-CN":  "chat-gpt.org 提供的免费chatgpt站点，国内不能直接访问。"}
+        },
+        {
+            "name": "WeWorldle",
+            "type": "chat",
+            "model": "GPT-3.5",
+            "uid": "17ee6983",
+            "status": "active",
+            "version": "1.0",
+            "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/weworldle.py",
+            "description": {"en":"A free chatgpt site created by wewordle.org. ",
+                            "zh-CN":  "wewordle.org 提供的免费chatgpt站点，国内不能直接访问。"}
+        },
+
+        {
             "name": {"en":"Awesome Chatgpt Prompts", "zh-CN": "Awesome 提示集"},
             "type": "prompt",
             "uid": "df3ec6e9",
