@@ -15,9 +15,9 @@ def handle_data(data):
 
 def completion(messages, proxies=None):
     url = "https://wewordle.org/gptapi/v1/android/turbo"
-        
+    
     messages = json.loads(messages)
-
+    
     # randomize user id and app id
     _user_id = "".join(
         random.choices(f"{string.ascii_lowercase}{string.digits}", k=16))
@@ -58,7 +58,7 @@ def completion(messages, proxies=None):
             "firstSeen"                     : _request_date,
             "activeSubscriptions"           : [],
         }
-    }    
+    }
 
-    return requests.post(url, headers=headers, json=json.dumps(data), timeout=10, proxies=proxies, stream=False)
+    return requests.post(url, headers=headers, data=json.dumps(data), proxies=proxies)
 

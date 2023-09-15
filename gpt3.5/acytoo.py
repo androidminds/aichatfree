@@ -25,4 +25,4 @@ def completion(messages, proxies=None):
         'content-type': 'application/json',   }
  
 
-    requests.post(url, headers=headers, json=_create_payload(messages), timeout=10, proxies=proxies, stream=False)
+    return requests.post(url, headers=headers, json=_create_payload(messages), timeout=10, proxies=proxies)

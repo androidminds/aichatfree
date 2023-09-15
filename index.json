@@ -34,17 +34,6 @@
                             "zh-CN":  "chat.acytoo.com 提供的免费chatgpt站点，国内不能直接访问。"}
         },
         {
-            "name": "AIChat",
-            "type": "chat",
-            "model": "GPT-3.5",
-            "uid": "1988c49f",
-            "status": "active",
-            "version": "1.0",
-            "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/aichat.py",
-            "description": {"en":"A free chatgpt site created by chat-gpt.org. ",
-                            "zh-CN":  "chat-gpt.org 提供的免费chatgpt站点，国内不能直接访问。"}
-        },
-        {
             "name": "WeWorldle",
             "type": "chat",
             "model": "GPT-3.5",
