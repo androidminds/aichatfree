@@ -7,12 +7,13 @@ import json
 import requests, random, string, time
 from typing  import Any
 
-def handle_data(response):
-    json_data = response.json()
-    if "message" in json_data:
-        return json_data["message"]["content"]
+def handle_data(data):
+    if "message" in data and "content" in data["message"]:
+        return data["message"]["content"]
+    else:
+        return data
 
-def completion(messages, proxy=None):
+def completion(messages, proxies=None):
     url = "https://wewordle.org/gptapi/v1/android/turbo"
         
     messages = json.loads(messages)
@@ -57,14 +58,7 @@ def completion(messages, proxy=None):
             "firstSeen"                     : _request_date,
             "activeSubscriptions"           : [],
         }
-    }
+    }    
 
-    timeout = 10
-    proxies = {'http': proxy, 'https': proxy} if proxy else None       
-
-    try:
-        return requests.post(url, headers=headers, json=json.dumps(data), timeout=timeout, proxies=proxies, stream=False), False
-    except Exception as e:
-        print("aichat post error: ", e)
-        return None, False
+    return requests.post(url, headers=headers, json=json.dumps(data), timeout=10, proxies=proxies, stream=False)
 

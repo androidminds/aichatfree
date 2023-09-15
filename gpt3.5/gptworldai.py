@@ -44,7 +44,7 @@ def handle_data(trunk):
   
     return content.encode('utf-8')
     
-def completion(messages, proxy=None):
+def completion(messages, proxies=None):
 
         url = "https://chat.getgpt.world/api/chat/stream"
 
@@ -65,14 +65,9 @@ def completion(messages, proxy=None):
             "stream": True,
             "uuid": str(uuid.uuid4())
         })
+
         data = json.dumps({"signature": encrypt(data)})
 
-        timeout = 10 # 设置超时时间为10秒
-        proxies = {'http': proxy, 'https': proxy} if proxy else None       
 
-        try:
-            return requests.post(url, headers=headers, data=data, timeout=timeout, proxies=proxies, stream=True), True 
-        except Exception as e:
-            print("Gptworldai post error: ", e)
-            return None, False
+        return requests.post(url, headers=headers, data=data, timeout=10, proxies=proxies, stream=True)
         

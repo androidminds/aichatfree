@@ -6,13 +6,13 @@
 import json
 import requests
 
-def handle_data(response):
-    if not response.json()['response']:
-        raise Exception("Error Response: " + response.json())
-    
-    return response.json()["message"]
+def handle_data(data):
+    if data['response']:
+        return data["message"]
+    else:
+        return data
 
-def completion(messages, proxy=None):
+def completion(messages, proxies=None):
     url = "https://chat-gpt.org/api/text"
         
     messages = json.loads(messages)
@@ -45,12 +45,5 @@ def completion(messages, proxy=None):
         "frequency_penalty": 0,
     }
     
-    timeout = 10
-    proxies = {'http': proxy, 'https': proxy} if proxy else None       
-
-    try:
-        return requests.post(url, headers=headers, json=json_data, timeout=timeout, proxies=proxies, stream=False), False
-    except Exception as e:
-        print("aichat post error: ", e)
-        return None, False
+    return requests.post(url, headers=headers, json=json_data, timeout=10, proxies=proxies, stream=False)
 

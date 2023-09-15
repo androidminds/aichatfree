@@ -7,7 +7,7 @@ import requests
 import js2py
 import json
 
-def completion(messages, proxy=None):
+def completion(messages, proxies=None):
     url = 'https://api.deepai.org/make_me_a_pizza'
 
     token_js = """
@@ -42,13 +42,5 @@ def completion(messages, proxy=None):
         "api-key": api_key,
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36",
     }
-
     
-    timeout = 10
-    proxies = {'http': proxy, 'https': proxy} if proxy else None       
-
-    try:
-        return requests.post(url, headers=headers, data=data, timeout=timeout, proxies=proxies, stream=True), True
-    except Exception as e:
-        print("DeepAI post error: ", e)
-        return None, False
+    return requests.post(url, headers=headers, data=data, timeout=10, proxies=proxies, stream=True)

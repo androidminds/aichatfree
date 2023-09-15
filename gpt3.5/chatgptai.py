@@ -10,7 +10,7 @@ def handle_data(content):
     json_data = json.loads(data)
     return json_data['data'].encode('utf-8')
 
-def completion(messages, proxy=None):
+def completion(messages, proxies=None):
     url = 'https://chatgpt.ai/wp-admin/admin-ajax.php'
 
     chat = ''
@@ -45,12 +45,6 @@ def completion(messages, proxy=None):
         'action': 'wpaicg_chat_shortcode_message',
         'message': chat,
         'bot_id': bot_id
-    }
-    timeout = 10
-    proxies = {'http': proxy, 'https': proxy} if proxy else None       
+    }  
 
-    try:
-        return requests.post(url, headers=headers, data=data, timeout=timeout, proxies=proxies), False
-    except Exception as e:
-        print("forefront post error: ", e)
-        return None, False
+    return requests.post(url, headers=headers, data=data, timeout=10, proxies=proxies)

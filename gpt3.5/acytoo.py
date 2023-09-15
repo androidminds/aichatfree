@@ -15,7 +15,7 @@ def _create_payload(messages: list[dict[str, str]]):
         'password'    : ''
     }
 
-def completion(messages, proxy=None):
+def completion(messages, proxies=None):
     url = 'https://chat.acytoo.com/api/completions'
 
     messages = json.loads(messages)
@@ -23,12 +23,6 @@ def completion(messages, proxy=None):
     headers = {
         'accept': '*/*',
         'content-type': 'application/json',   }
+ 
 
-    timeout = 10
-    proxies = {'http': proxy, 'https': proxy} if proxy else None       
-
-    try:
-        return requests.post(url, headers=headers, json=_create_payload(messages), timeout=timeout, proxies=proxies, stream=False), False
-    except Exception as e:
-        print("acytoo post error: ", e)
-        return None, False
+    requests.post(url, headers=headers, json=_create_payload(messages), timeout=10, proxies=proxies, stream=False)

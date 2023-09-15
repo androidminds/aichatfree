@@ -7,7 +7,7 @@ import requests
 import time
 from fake_useragent import UserAgent
 
-def completion(messages, proxy=None):
+def completion(messages, proxies=None):
     url = 'https://api.aichatos.cloud/api/generateStream'
 
     user_agent = UserAgent().random
@@ -26,12 +26,5 @@ def completion(messages, proxy=None):
         'system': '',
         'withoutContext': True,
     }
-
-    timeout = 10
-    proxies = {'http': proxy, 'https': proxy} if proxy else None       
-
-    try:
-        return requests.post(url, headers=headers, json=data, timeout=timeout, proxies=proxies, stream=True), True
-    except Exception as e:
-        print("yqcloud post error: ", e)
-        return None, False
+    
+    return requests.post(url, headers=headers, json=data, timeout=10, proxies=proxies, stream=True)
