@@ -5,7 +5,7 @@
             "type": "chat",
             "model": "GPT-3.5",
             "uid": "b69510f8",
-            "status": "active",
+            "status": "inactive",
             "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/deepai.py",
             "description": {"en":"A free chatgpt site created by Deep AI",
