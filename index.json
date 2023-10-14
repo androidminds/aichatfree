@@ -1,53 +1,74 @@
 {
     "extensions": [
         {
-            "name": "Deep AI",
-            "type": "chat",
-            "model": "GPT-3.5",
-            "uid": "b69510f8",
-            "status": "inactive",
+            "name": "AI VVM",
+            "type": ["chat"],
+            "model": ["gpt-3.5-turbo"],
+            "uid": "b9951018",
+            "status": "active",
             "version": "1.0",
-            "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/deepai.py",
-            "description": {"en":"A free chatgpt site created by Deep AI",
-                            "zh-CN":  "Deep AI提供的免费ChatGPT站点，国内不能直接访问"}
+            "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/openai/Aivvm.py",
+            "description": {"en":"A free chatgpt site created by chat.aivvm.com",
+                            "zh-CN":  "chat.aivvm.com 提供的免费ChatGPT站点，国内可以直接访问"}
         },
         {
             "name": "YQ Cloud",
-            "type": "chat",
-            "model": "GPT-3.5",
+            "type": ["chat"],
+            "model": ["gpt-3.5-turbo"],
             "uid": "80ff80e8",
             "status": "active",
-            "version": "1.1",
-            "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/yqcloud.py",
+            "version": "1.2",
+            "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/openai/yqcloud.py",
             "description": {"en":"A free chatgpt site created by YQ Cloud",
                             "zh-CN":  "YQ Cloud提供的免费ChatGPT站点，国内可以直接访问"}
         },
         {
-            "name": "Acytoo",
-            "type": "chat",
-            "model": "GPT-3.5",
-            "uid": "ba14e585",
+            "name": "ChatAIGPT",
+            "type": ["chat"],
+            "model": ["gpt-3.5-turbo"],
+            "uid": "d9951028",
             "status": "active",
             "version": "1.0",
-            "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/acytoo.py",
-            "description": {"en":"A free chatgpt site created by chat.acytoo.com.",
-                            "zh-CN":  "chat.acytoo.com 提供的免费chatgpt站点，国内不能直接访问。"}
+            "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/openai/ChatAiGpt.py",
+            "description": {"en":"A free chatgpt site created by chataigpt.org",
+                            "zh-CN":  "chataigpt.org 提供的免费ChatGPT站点，国内不可以直接访问"}
         },
         {
-            "name": "WeWorldle",
-            "type": "chat",
-            "model": "GPT-3.5",
-            "uid": "17ee6983",
+            "name": "ChatGPTOnline",
+            "type": ["chat"],
+            "model": ["gpt-3.5-turbo"],
+            "uid": "4f8e36a9",
             "status": "active",
             "version": "1.0",
-            "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/gpt3.5/weworldle.py",
-            "description": {"en":"A free chatgpt site created by wewordle.org. ",
-                            "zh-CN":  "wewordle.org 提供的免费chatgpt站点，国内不能直接访问。"}
+            "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/openai/Chatgpt4Online.py",
+            "description": {"en":"A free chatgpt site created by chatgpt4online.org",
+                            "zh-CN":  "chatgpt4online.org 提供的免费ChatGPT站点，国内不可以直接访问"}
         },
-
+        {
+            "name": "GetGPT",
+            "type": ["chat"],
+            "model": ["gpt-3.5-turbo"],
+            "uid": "9f5e3ba9",
+            "status": "active",
+            "version": "1.0",
+            "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/openai/GetGpt.py",
+            "description": {"en":"A free chatgpt site created by chat.getgpt.world",
+                            "zh-CN":  "chat.getgpt.world 提供的免费ChatGPT站点，国内不可以直接访问"}
+        },
+        {
+            "name": "Liaobots",
+            "type": ["chat"],
+            "model": ["gpt-3.5-turbo"],
+            "uid": "2f1eaba5",
+            "status": "active",
+            "version": "1.0",
+            "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/openai/Liaobots.py",
+            "description": {"en":"A free chatgpt site created by liaobots.work",
+                            "zh-CN":  "liaobots.work 提供的免费ChatGPT站点，国内不可以直接访问"}
+        },
         {
             "name": {"en":"Awesome Chatgpt Prompts", "zh-CN": "Awesome 提示集"},
-            "type": "prompt",
+            "type": ["prompt"],
             "uid": "df3ec6e9",
             "status": "active",
             "version": "1.0",

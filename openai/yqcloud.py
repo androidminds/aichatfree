@@ -6,8 +6,9 @@
 import requests
 import time
 from fake_useragent import UserAgent
+from json import dumps
 
-def completion(messages, proxies=None):
+async def completion(messages, **kwargs):
     url = 'https://api.aichatos.cloud/api/generateStream'
 
     user_agent = UserAgent().random
@@ -19,12 +20,19 @@ def completion(messages, proxies=None):
     }
 
     data = {
-        'prompt': messages,
+        'prompt': dumps(messages),
         'userId': f'#/chat/{int(time.time() * 1000)}',
         'network': True,
         'apikey': '',
         'system': '',
         'withoutContext': True,
     }
-    
-    return requests.post(url, headers=headers, json=data, timeout=10, proxies=proxies, stream=True)
+    proxies = kwargs.get("proxies", None)
+    response = requests.post(url, headers=headers, json=data, proxies=proxies, stream=True)
+    response.raise_for_status()
+
+    for chunk in response.iter_content(chunk_size=4096):
+        try:
+            yield chunk.decode("utf-8")
+        except UnicodeDecodeError:
+            yield chunk.decode("unicode-escape")
