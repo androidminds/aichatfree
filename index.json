@@ -2,7 +2,7 @@
     "extensions": [
         {
             "name": "AI VVM",
-            "type": ["chat"],
+            "type": "chat",
             "model": ["gpt-3.5-turbo"],
             "uid": "b9951018",
             "status": "active",
@@ -13,7 +13,7 @@
         },
         {
             "name": "YQ Cloud",
-            "type": ["chat"],
+            "type": "chat",
             "model": ["gpt-3.5-turbo"],
             "uid": "80ff80e8",
             "status": "active",
@@ -24,7 +24,7 @@
         },
         {
             "name": "ChatAIGPT",
-            "type": ["chat"],
+            "type": "chat",
             "model": ["gpt-3.5-turbo"],
             "uid": "d9951028",
             "status": "active",
@@ -35,7 +35,7 @@
         },
         {
             "name": "ChatGPTOnline",
-            "type": ["chat"],
+            "type": "chat",
             "model": ["gpt-3.5-turbo"],
             "uid": "4f8e36a9",
             "status": "active",
@@ -46,7 +46,7 @@
         },
         {
             "name": "GetGPT",
-            "type": ["chat"],
+            "type": "chat",
             "model": ["gpt-3.5-turbo"],
             "uid": "9f5e3ba9",
             "status": "active",
@@ -57,7 +57,7 @@
         },
         {
             "name": "Liaobots",
-            "type": ["chat"],
+            "type": "chat",
             "model": ["gpt-3.5-turbo"],
             "uid": "2f1eaba5",
             "status": "active",
@@ -68,7 +68,7 @@
         },
         {
             "name": {"en":"Awesome Chatgpt Prompts", "zh-CN": "Awesome 提示集"},
-            "type": ["prompt"],
+            "type": "prompt",
             "uid": "df3ec6e9",
             "status": "active",
             "version": "1.0",
