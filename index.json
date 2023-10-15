@@ -3,7 +3,7 @@
         {
             "name": "AI VVM",
             "type": "chat",
-            "model": ["gpt-3.5-turbo", "gpt-4", "gpt-4-32k"],
+            "models": ["gpt-3.5-turbo", "gpt-4", "gpt-4-32k"],
             "uid": "b9951018",
             "status": "active",
             "version": "1.0",
@@ -14,7 +14,7 @@
         {
             "name": "YQ Cloud",
             "type": "chat",
-            "model": ["gpt-3.5-turbo"],
+            "models": ["gpt-3.5-turbo"],
             "uid": "80ff80e8",
             "status": "active",
             "version": "1.2",
@@ -25,7 +25,7 @@
         {
             "name": "ChatAIGPT",
             "type": "chat",
-            "model": ["gpt-3.5-turbo"],
+            "models": ["gpt-3.5-turbo"],
             "uid": "d9951028",
             "status": "active",
             "version": "1.0",
@@ -36,7 +36,7 @@
         {
             "name": "ChatGPTOnline",
             "type": "chat",
-            "model": ["gpt-3.5-turbo"],
+            "models": ["gpt-3.5-turbo"],
             "uid": "4f8e36a9",
             "status": "active",
             "version": "1.0",
@@ -47,7 +47,7 @@
         {
             "name": "GetGPT",
             "type": "chat",
-            "model": ["gpt-3.5-turbo"],
+            "models": ["gpt-3.5-turbo"],
             "uid": "9f5e3ba9",
             "status": "active",
             "version": "1.0",
@@ -58,7 +58,7 @@
         {
             "name": "Liaobots",
             "type": "chat",
-            "model": ["gpt-3.5-turbo"],
+            "models": ["gpt-3.5-turbo"],
             "uid": "2f1eaba5",
             "status": "inactive",
             "version": "1.0",
