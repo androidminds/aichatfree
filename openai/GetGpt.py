@@ -37,10 +37,14 @@ async def completion(messages, **kwargs):
 
     proxies = kwargs.get("proxies", None)
 
-    res = requests.post('https://chat.getgpt.world/api/chat/stream', proxies=proxies, 
+    try:
+        res = requests.post('https://chat.getgpt.world/api/chat/stream', proxies=proxies, 
         headers=headers, json={'signature': _encrypt(data)}, stream=True)
-
-    res.raise_for_status()
+        res.raise_for_status()
+    except Exception as e:
+        yield str(e)
+        return
+    
     for line in res.iter_lines():
         if b'content' in line:
             line_json = json.loads(line.decode('utf-8').split('data: ')[1])

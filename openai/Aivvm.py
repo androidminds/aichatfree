@@ -53,8 +53,13 @@ async def completion(messages, **kwargs):
     }
 
     proxies = kwargs.get("proxies", None)
-    response = requests.post("https://chat.aivvm.com/api/chat", headers=headers, data=data, proxies=proxies, stream=True)
-    response.raise_for_status()
+
+    try:
+        response = requests.post("https://chat.aivvm.com/api/chat", headers=headers, data=data, proxies=proxies, stream=True)
+        response.raise_for_status()
+    except Exception as e:
+        yield str(e)
+        return
 
     for chunk in response.iter_content(chunk_size=4096):
         try:
