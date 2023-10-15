@@ -8,7 +8,7 @@ import time
 from fake_useragent import UserAgent
 from json import dumps
 
-async def completion(messages, **kwargs):
+def completion(messages, **kwargs):
     url = 'https://api.aichatos.cloud/api/generateStream'
 
     user_agent = UserAgent().random
@@ -28,14 +28,10 @@ async def completion(messages, **kwargs):
         'withoutContext': True,
     }
     proxies = kwargs.get("proxies", None)
-   
-    try: 
-        response = requests.post(url, headers=headers, json=data, proxies=proxies, stream=True)
-        response.raise_for_status()
-    except Exception as e:
-        yield str(e)
-        return
-    
+
+    response = requests.post(url, headers=headers, json=data, proxies=proxies, stream=True)
+    response.raise_for_status()
+
     for chunk in response.iter_content(chunk_size=4096):
         try:
             yield chunk.decode("utf-8")

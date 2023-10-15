@@ -3,7 +3,7 @@
         {
             "name": "AI VVM",
             "type": "chat",
-            "model": ["gpt-3.5-turbo"],
+            "model": ["gpt-3.5-turbo", "gpt-4", "gpt-4-32k"],
             "uid": "b9951018",
             "status": "active",
             "version": "1.0",
@@ -60,7 +60,7 @@
             "type": "chat",
             "model": ["gpt-3.5-turbo"],
             "uid": "2f1eaba5",
-            "status": "active",
+            "status": "inactive",
             "version": "1.0",
             "url": "https://raw.githubusercontent.com/androidminds/aichatfree/main/openai/Liaobots.py",
             "description": {"en":"A free chatgpt site created by liaobots.work",

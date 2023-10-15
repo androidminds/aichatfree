@@ -13,7 +13,7 @@ import requests
 from Crypto.Cipher import AES
 
 
-async def completion(messages, **kwargs):
+def completion(messages, **kwargs):
     
     headers = {
         'Content-Type'  : 'application/json',
@@ -37,13 +37,9 @@ async def completion(messages, **kwargs):
 
     proxies = kwargs.get("proxies", None)
 
-    try:
-        res = requests.post('https://chat.getgpt.world/api/chat/stream', proxies=proxies, 
-        headers=headers, json={'signature': _encrypt(data)}, stream=True)
-        res.raise_for_status()
-    except Exception as e:
-        yield str(e)
-        return
+    res = requests.post('https://chat.getgpt.world/api/chat/stream', proxies=proxies, 
+    headers=headers, json={'signature': _encrypt(data)}, stream=True)
+    res.raise_for_status()
     
     for line in res.iter_lines():
         if b'content' in line:
